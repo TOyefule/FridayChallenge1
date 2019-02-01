@@ -1,5 +1,6 @@
-/Challenge 2 Psuedo Code
-
+//Challenge 2 Psuedo Code
+import java.util.Random;
+import java.util.Scanner;
 
 Initialize Program Main() {
 var A =  variable A;
@@ -28,9 +29,10 @@ if(state.col == true && state.num == true) {
 	System.out.println("Congratulations, you've won.")
 } else {System.out.println("Sorry, you've lost this bet.")
 
+// You currently have: $-35.0
 system.out.println("You currently have: $" money(-35.0) )
 
-// You currently have: $-35.0
+
 
 system.out.println("Would you like to play again (true|false)?")
 	System.in(true)
